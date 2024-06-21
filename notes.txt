@@ -1,0 +1,14 @@
+
+SETS : los sets son conjuntos de datos unicos.
+-- no pueden teenr listas, ni diccionarios, ni sets, pero si tuplas
+
+List Comprehension: forma concisa de crear listas
+-- "comprehension" se refiere a la formación de un conjunto a partir de una expresión.
+
+
+
+** enumerate -- convierte una lista en un iterable de tuplas con el indice y el elemento como tupla.
+** zip -- crea un iterable de tuplas a partir de listas, con los elementos como tupla.
+
+** .items() -- crea una lista de tuplas, con los valores del diccionario
+** .keys() -- Devuelve una vista de las claves del diccionario.
