@@ -37,7 +37,6 @@ def print_results(winner, user_option, computer_option):
     print('User option =>', user_option)
     print('Computer option =>', computer_option)
 
-
 def main():
   GAME_OPTIONS = list(OPTIONS.values())
   computer_wins = 0
@@ -75,12 +74,10 @@ def main():
     print('NADIE GANÓ')        
 
 if __name__ == "__main__":
-    main()
-
-
+  main()
 
 '''
   - Creamos funciones para separar el condigo
   - Creamos constantes para evitar los magic values
-  - 
+  - Creamos una funcion principal para ejecutar el game
 '''
