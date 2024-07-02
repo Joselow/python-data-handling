@@ -29,3 +29,10 @@ for (key, value, other) in tupless:       # al rrecorrer una lista de tuplas, ca
 # for with array
 for (index, item) in enumerate(names):     # -- crea un iterable de tuplas , siendo cada tupla el (indice, elmento)
   print(index, item)
+
+
+text = 'Hola mundo cruel owo'
+vowels = { v.upper(): v for v in text if v in 'aeiou' }
+print(tuple(vowels.values()), list(vowels.keys()))
+
+print(names[1:3])

@@ -1,13 +1,20 @@
 
 SETS : los sets son conjuntos de datos unicos.
--- no pueden tener listas, ni diccionarios, ni sets, pero si tuplas
+-- no pueden tener listas, ni diccionarios, ni sets, pero si tuplas y valores primitivos
 
 List Comprehension: forma concisa de crear listas
 -- "comprehension" se refiere a la formación de un conjunto a partir de una expresión.
 
-
+-- Para listas: 
 ** enumerate -- convierte una lista en un iterable de tuplas con el indice y el elemento como tupla.
 ** zip -- crea un iterable de tuplas a partir de listas, con los elementos como tupla.
 
-** .items() -- crea una lista de tuplas, con los valores del diccionario
+-- Para diccionarios:
+** .items() -- crea una lista de tuplas, con los valores del diccionario, (key, value)
 ** .keys() -- Devuelve una vista de las claves del diccionario.
+
+
+** Las funciones de python --> el retun puede ser multiple y te da na Tupla, lo cual es genial si lo desempaquetas.
+
+** if __name__ == "__main__": puedes asegurarte de que el código destinado a la ejecución principal se ejecute 
+solo cuando el archivo se ejecuta directamente, y no cuando se importa como un módulo en otro archivo.
