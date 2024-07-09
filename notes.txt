@@ -18,3 +18,15 @@ List Comprehension: forma concisa de crear listas
 
 ** if __name__ == "__main__": puedes asegurarte de que el código destinado a la ejecución principal se ejecute 
 solo cuando el archivo se ejecuta directamente, y no cuando se importa como un módulo en otro archivo.
+
+
+--- LAMBDAS en python:
+- Solo una expresión: Las lambdas están limitadas a una sola expresión.
+
+
+
+****
+<function <lambda> at 0x00000274D272DE40> --  salidas conmo estas indican que es una referencia.
+** ojo: existen referencias de la misma fomra que en js 
+
+map -> trasnforma una interable y devuelve un iterable con los elementos trasnformados, recibe una funcion y el iterable
